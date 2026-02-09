@@ -2,6 +2,10 @@
     Created on : Feb 9, 2026, 4:38:42 PM
     Author     : AntXHoney
 */
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-image: url('assets/images/background.jpg');
     display: flex;
@@ -45,7 +49,7 @@ body{
 .intro p, intro {
     font-family: DM Sans, sans-serif;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 .button{
@@ -104,7 +108,7 @@ body{
     border-radius: 10px;
     justify-content: center;
     padding: 1rem;
-    width: max(450px, 90dvw);
+    width: 90dvw;
 }
 
 .card {
