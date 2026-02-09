@@ -2,10 +2,6 @@
     Created on : Feb 9, 2026, 4:38:42 PM
     Author     : AntXHoney
 */
-* {
-    box-sizing: border-box;
-}
-
 body{
     background-image: url('assets/images/background.jpg');
     display: flex;
